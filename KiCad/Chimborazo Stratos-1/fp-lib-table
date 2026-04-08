@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "XIAO Family")(type "KiCad")(uri "${KIPRJMOD}/OPL_Kicad_Library-master (1)/OPL_Kicad_Library-master/XIAO Family")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "C:/Users/cocot/OneDrive/Desktop/STASIS/Chimborazo Stratos-1/KiCad/libs/hackpad-clean/hackpad-clean/extras/kicad_care_package/footprints.pretty")(options "")(descr ""))
 )
