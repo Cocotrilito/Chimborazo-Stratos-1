@@ -10,3 +10,12 @@
 
 ## CAD MODEL
 ![Final Model](images/final_model.png)
+
+## Bom 
+| Item | Component | Quantity | Notes |
+| 1 | Seeed Studio XIAO RP2040 | 1 | Main microcontroller |
+| 2 | MPU-6050 GY-521 6DOF | 1 | Accelerometer & gyroscope |
+| 3 | BMP280-3.3 | 1 | Atmospheric Pressure Sensor |
+| 4 | Pin Header & Female Socket | 14 | Hand Soldering |
+| 5 | PCB | 1 | Custom designed |
+| 6 | Case | 1 | 3D printed |
