@@ -15,14 +15,15 @@ This project is born with the intent of giving my homecountry a posibility or ev
 ![Final Model](images/final_model.png)
 
 ## Bom 
-| Item | Component | Quantity | Notes |
-|-----:|----------|----------|-------|
-| 1 | Seeed Studio XIAO RP2040 | 1 | Main microcontroller |
-| 2 | MPU-6050 GY-521 6DOF | 1 | Accelerometer & gyroscope |
-| 3 | BMP280-3.3 | 1 | Atmospheric Pressure Sensor |
-| 4 | Pin Header & Female Socket | 14 | Hand Soldering |
-| 5 | PCB | 1 | Custom designed |
-| 6 | Case | 1 | 3D printed |
+| Name | Purpose | Qty | Total Cost (USD) | Link |
+| :--- | :--- | :---: | :---: | :--- |
+| **XIAO ESP32-C6** | Main MCU / Flight Controller Brain | 1 | $11.08 | [AliExpress](https://www.aliexpress.com/item/3256808627180483.html) |
+| **GPS Module (NEO-6M)** | Location and velocity telemetry | 1 | $1.93 | [AliExpress](https://www.aliexpress.com/item/3256810342214632.html) |
+| **GY-87 IMU** | Sensor Suite (Accel/Gyro/Mag/Baro) | 1 | $1.53 | [AliExpress](https://www.aliexpress.com/item/3256807064707842.html) |
+| **SG90 Servos** | Actuators for fins/recovery system | 2 | $1.33 | [AliExpress](https://www.aliexpress.com/item/3256807031850814.html) |
+| **JST PH 2.0 Connectors** | Battery power input connection | 1 | $1.53 | [AliExpress](https://www.aliexpress.com/item/3256808243626691.html) |
+| **40 Pin Headers (M/F)** | Component mounting and headers | 1 | $0.93 | [AliExpress](https://www.aliexpress.com/item/3256811594914967.html) |
+
 
 ## Final Notes
 Thanks for reading! made possible with http://stasis.hackclub.com/
