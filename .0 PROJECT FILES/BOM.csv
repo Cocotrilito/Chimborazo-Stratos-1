@@ -1,0 +1,9 @@
+Name,Purpose,Qty,Total Cost (USD),Link
+XIAO ESP32-C6,Main Flight Computer / MCU,1,11.08,https://www.aliexpress.com/item/3256808627180483.html
+GY-87 10DOF,IMU & Barometer (Orientation/Altitude),1,1.53,https://www.aliexpress.com/item/3256807064707842.html
+ATGM336H GPS,Global Positioning System Module,1,1.93,https://www.aliexpress.com/item/3256810342214632.html
+SG90 Servos (2pcs),Canard Actuators (Active Stabilization),1,1.33,https://www.aliexpress.com/item/3256807031850814.html
+JST PH 2.0 Connectors,LiPo Battery Connection Set,1,1.53,https://www.aliexpress.com/item/3256808243626691.html
+40-Pin Headers (M/F),Interconnection & Sensor Mounting,1,0.93,https://www.aliexpress.com/item/3256811594914967.html
+JLCPCB PCBA,PCB Manufacturing + SMT Assembly,1,22.46,https://jlcpcb.com
+Taxes & Customs,Estimated Import Duties,1,5,-

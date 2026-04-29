@@ -1809,27 +1809,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -18.542 23.114 0)
+			(property "Reference" "U1"
+				(at 16.51 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "XIAO-ESP32-C6-SMD"
-				(at -8.382 21.336 0)
+				(at 16.51 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-ESP32-C6-SMD"
+			(property "Footprint" "xiaoesp32c6:XIAO-ESP32-C6-SMD"
 				(at -8.89 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2093,6 +2095,24 @@
 					)
 				)
 				(pin passive line
+					(at -1.27 22.86 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 21.59 0 180)
 					(length 2.54)
 					(name "GND"
@@ -2138,7 +2158,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2156,7 +2176,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2174,25 +2194,7 @@
 							)
 						)
 					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -1.27 22.86 270)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2210,7 +2212,7 @@
 							)
 						)
 					)
-					(number "28"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2228,25 +2230,7 @@
 							)
 						)
 					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 22.86 270)
-					(length 2.54)
-					(name "GPIO9_BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2264,7 +2248,25 @@
 							)
 						)
 					)
-					(number "31"
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 22.86 270)
+					(length 2.54)
+					(name "GPIO9_BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2282,7 +2284,7 @@
 							)
 						)
 					)
-					(number "32"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2300,7 +2302,7 @@
 							)
 						)
 					)
-					(number "33"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4372,16 +4374,6 @@
 		(uuid "5c6dfe87-6441-4a50-9d75-aadfae77d257")
 	)
 	(label "VBAT"
-		(at 132.08 82.55 180)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify right bottom)
-		)
-		(uuid "6c0fdddd-53ac-4497-b7ac-11c3656815c5")
-	)
-	(label "VBAT"
 		(at 44.45 72.39 180)
 		(effects
 			(font
@@ -4490,6 +4482,16 @@
 			(justify right bottom)
 		)
 		(uuid "be9dc206-f82a-4f26-be8e-eb997f394a50")
+	)
+	(label "BAT_SENSE"
+		(at 132.08 82.55 180)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0bda719-3d07-4544-b75c-fa4251dea982")
 	)
 	(label "PYRO_GATE"
 		(at 101.6 34.29 180)
@@ -4842,7 +4844,7 @@
 		(pin "11"
 			(uuid "efd92c98-5c93-4352-8a34-77d2dadd7148")
 		)
-		(pin "27"
+		(pin "13"
 			(uuid "9dd3383f-3a53-42a4-9adc-8c97c1dc2ae5")
 		)
 		(pin "9"
@@ -4851,16 +4853,16 @@
 		(pin "3"
 			(uuid "37abde53-ddc9-4ad3-9f34-9f2ba2e1091e")
 		)
-		(pin "31"
+		(pin "21"
 			(uuid "3535221c-d376-42f4-b25e-37d147854e2e")
 		)
 		(pin "24"
 			(uuid "e403d536-011b-46a7-9747-779367a9bb4a")
 		)
-		(pin "32"
+		(pin "17"
 			(uuid "d4477a8f-8573-4a3b-a6ab-7c312048e239")
 		)
-		(pin "30"
+		(pin "20"
 			(uuid "8c4bf157-bc99-42a9-ab2d-79dd91b555ac")
 		)
 		(pin "14"
@@ -4878,10 +4880,10 @@
 		(pin "10"
 			(uuid "21e00cc9-fb2e-4ba2-8d42-52929ed593ca")
 		)
-		(pin "33"
+		(pin "23"
 			(uuid "ca4e8782-d4cf-4135-a009-116de3c1ef75")
 		)
-		(pin "29"
+		(pin "19"
 			(uuid "7aa9e04b-b016-4ca1-b183-a9b52dde593d")
 		)
 		(pin "13"
@@ -4896,10 +4898,10 @@
 		(pin "8"
 			(uuid "0f3785ee-851e-44ca-9964-ffdaca96ede2")
 		)
-		(pin "25"
+		(pin "16"
 			(uuid "226ab9c1-e6d9-4e64-9482-449b014c66ae")
 		)
-		(pin "28"
+		(pin "18"
 			(uuid "69c43e75-0d2c-4c65-8896-752018819930")
 		)
 		(pin "4"
@@ -4908,7 +4910,7 @@
 		(pin "1"
 			(uuid "e5df3ff5-e346-4cc6-85a2-0d21f83f2f0d")
 		)
-		(pin "26"
+		(pin "15"
 			(uuid "eb84b9b0-c5d7-4566-8a80-45caa746ec22")
 		)
 		(instances
@@ -6852,7 +6854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745ffcc5-d997-4149-9d39-91f28eb7e0d9")
-		(property "Reference" "J1"
+		(property "Reference" "JPyro1"
 			(at 130.81 22.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6916,7 +6918,7 @@
 		(instances
 			(project "Chimborazo Stratos-1"
 				(path "/693bdab5-43ca-4fa8-b8fd-c6e41a7a7cc1"
-					(reference "J1")
+					(reference "JPyro1")
 					(unit 1)
 				)
 			)

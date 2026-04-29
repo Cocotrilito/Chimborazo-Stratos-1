@@ -1,0 +1,9 @@
+Item,Descripcion,Proveedor,Cantidad,Precio_USD,Enlace,Subtotal
+XIAO ESP32-C6,Microcontrolador Principal,AliExpress,1,11.08,https://www.aliexpress.com/item/3256808627180483.html,11.08
+GY-87 10DOF,Sensor IMU + Barómetro,AliExpress,1,1.53,https://www.aliexpress.com/item/3256807064707842.html,1.53
+GPS ATGM336H,Posicionamiento Global,AliExpress,1,1.93,https://www.aliexpress.com/item/3256810342214632.html,1.93
+Servos SG90 (2pcs),Actuadores Canards,AliExpress,1,1.33,https://www.aliexpress.com/item/3256807031850814.html,1.33
+JST PH 2.0 Connector,Conector Batería,AliExpress,1,1.53,https://www.aliexpress.com/item/3256808243626691.html,1.53
+40 Pin Headers (M/F),Conectores,AliExpress,1,0.93,https://www.aliexpress.com/item/3256811594914967.html,0.93
+JLCPCB PCBA,PCB + Montaje SMD,JLCPCB,1,22.46,https://jlcpcb.com,22.46
+Tax / Impuestos,Aranceles estimados,Aduana,1,5.0,-,5.0
