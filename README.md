@@ -11,12 +11,12 @@ This project is born with the intent of giving my homecountry a posibility or ev
 ## PCB
 ![PCB](<images/PCB V2.png>)
 ![F.CU](images/F.CU.png)
-![B.cu](images/Bcu.png)
+![B.cu](images/BCu.png)
 
 ## CAD MODEL
 ![Final Model](images/FRONTrENDER.png)
 ![SIDE](<images/Chimborazo Stratos-1.png>)
-![TOP](<imgaes/TOP.png>)
+![TOP](images/TOP.png)
 
 ## Bom 
 | Name | Purpose | Qty | Total Cost (USD) | Link |
