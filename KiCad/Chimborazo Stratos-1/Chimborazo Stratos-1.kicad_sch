@@ -6007,7 +6007,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 52.07 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)

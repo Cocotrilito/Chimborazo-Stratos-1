@@ -510,7 +510,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Project KiCad Files/Gerbers/",
+      "plot": "../../.0 PROJECT FILES/PRODUCTION/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Chimborazo Stratos-1.step",
